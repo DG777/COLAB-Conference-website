@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COLAB Conference</title>
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="bower_components/fullpage.js/jquery.fullPage.js"></script>
+    <!--    Google fonts-->
+    <link href='https://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <div id="fullpage">
+        <div class="section">
+            <div class="slice group">
+                <div class="col span_5_of_9 logo">
+                    <div class="logo_img">
+                        <img src="images/logo@3x.png" alt="">
+                    </div>
+                </div>
+                <div class="col span_4_of_9">
+                    <h2>Creative <br> Technologies <br> Conference</h2>
+                    <div class="indextext">
+                        <h3 class="h3 h3--sp">when</h3>
+                        <h3>29 July</h3>
+                        <h3 class="h3 h3--sp">where</h3>
+                        <h3>WG1101, AUT, Auckland</h3>
+                    </div>
+                    <input type="button" class="button" value="FREE ADMISSION">
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="slice group">
+                <div class="col span_5_of_9 about">
+                    <h3 class="h3 h3--sp"><span>1 </span>| What's it all about?</h3>
+                    <h1>About</h1>
+                    <hr>
+                    <p>Colab is the collaboratory for Design and Creative Technologies at the Auckland University of Technology (AUT), New Zealand.
+                        <br>Its aim is to inspire creative research and collaboration between lecturers and students. Colab Conference is an opportunity for lecturers to expand their practice and showcase their work and expertise, to a group of interested students involved in a broad range of similar disciplines.
+                        <br>We hope to encourage the BCT culture of working together by hearing real world ideas and research that will ultimately affect the way Creative Technologies evolves in the future. Participants will also be invited to debate relevant student chosen questions designed to explore the undefinable and the future of Creative Technologies in a rapidly changing society.</p>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="slice group">
+                <div class="col span_5_of_9 about">
+                    <h3 class="h3 h3--sp"><span>2 </span>| What we need?</h3>
+                    <h1>Call for papers</h1>
+                    <hr>
+                    <h2>theme</h2>
+                    <p>The theme for this conference, “Plato’s Colab", explores creative technology as a utopian ideology. Lecturers are invited to submit papers either on this theme or on any topic you consider relevant, including but not limited to entrepreneurship, creative management, interactive art, design thinking, film, virtual reality and the future of Creative Technology, in the context of the platonic utopia.</p>
+                </div>
+                <div class="col span_3_of_9 plato">
+                    <p class="p--sp">"Like Plato’s Republic and Laws presented ideals of a utopian society, Creative Technology presents itself as a mode of elevating creativity, thinking and practice past the confines of traditional disciplinary frameworks, into a space that offers true and unbounded innovative potential. This conference theme explores the utopian ideals of creative technology and how work being done in the field of creative technology reflects, reinforces and challenges these ideals."</p>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="slice group">
+                <div class="col span_5_of_9 about">
+                    <h3 class="h3 h3--sp"><span>3 </span>| When, What, How?</h3>
+                    <h1>Details</h1>
+                    <hr>
+                    <p>Colab Conference 2016 will be held on RED Friday, 29 July 2016, in the second week of semester 2. New papers are encouraged and previously published papers, if reworked and/or relevant, will be considered. Long or short papers should be between 2 and 5 pages in length. Papers will be assessed by a panel of students and selected based on quality and relevance. Submissions must conform to the standards specified in the attached template. Special consideration will be given to works of art or installations if applicable.</p>
+                </div>
+                <div class="col span_3_of_9 plato">
+                    <h2>publication</h2>
+                    <p class="p--sp">We would like to publish a selected work that values and supports researchers and artists, online in video form, for future reference and discussion. </p>
+                </div>
+            </div>
+        </div>
+        <div class="section fp-auto-height footer">
+           <div class="slice group">
+            <div class="col span_4_of_9 some">
+                <span id="line"><h4><a href="https://colab.aut.ac.nz/">colab.aut.ac.nz</a> | <a href="tel:09-921-9566">(09) 921 9566</a> | <a href="mailto:colab@aut.ac.nz">colab@aut.ac.nz</a></h4></span>
+            </div>
+            <div class="col span_9_of_9">
+                <img src="images/logo@3x.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script>
+    $(document).ready(function () {
+        $("#fullpage").fullpage({
+				navigation: true,
+				navigationPosition: 'right',
+				navigationTooltips: ['Home', 'About', 'Call for papers', 'Details', 'Links']
+        });
+    })
+</script>
+
+</html>
