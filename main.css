@@ -266,8 +266,8 @@ span {
 }
 
 .footer * {
-    color: #ff9900;
-    background-color: #fff;
+    color: white;
+    background-color: #ff9900;
     font-style: normal;
     text-align: right;
 }
@@ -301,7 +301,7 @@ line-height: 200px;
 }
 
 .photo {
-    margin: % 0 0 0 ;
+    margin: 8% 0 0 0 ;
 }
 
 .photo img {
