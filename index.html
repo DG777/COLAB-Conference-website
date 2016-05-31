@@ -5,14 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>COLAB Conference</title>
-    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-
-    <script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
     <!--    Google fonts-->
     <link href='https://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
+    <!--    Styling-->
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+    <!--Scripts-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
 </head>
 
 <body>
@@ -78,12 +79,12 @@
             </div>
         </div>
         <div class="section fp-auto-height footer">
-           <div class="slice group">
-            <div class="col span_4_of_9 some">
-                <span id="line"><h4><a href="https://colab.aut.ac.nz/">colab.aut.ac.nz</a> | <a href="tel:09-921-9566">(09) 921 9566</a> | <a href="mailto:colab@aut.ac.nz">colab@aut.ac.nz</a></h4></span>
-            </div>
-            <div class="col span_9_of_9">
-                <img src="images/logo@3x.png" alt=""></div>
+            <div class="slice group">
+                <div class="col span_4_of_9 some">
+                    <span id="line"><h4><a href="https://colab.aut.ac.nz/">colab.aut.ac.nz</a> | <a href="tel:09-921-9566">(09) 921 9566</a> | <a href="mailto:colab@aut.ac.nz">colab@aut.ac.nz</a></h4></span>
+                </div>
+                <div class="col span_9_of_9">
+                    <img src="images/logo@3x.png" alt=""></div>
             </div>
         </div>
     </div>
@@ -92,9 +93,9 @@
 <script>
     $(document).ready(function () {
         $("#fullpage").fullpage({
-				navigation: true,
-				navigationPosition: 'right',
-				navigationTooltips: ['Home', 'About', 'Call for papers', 'Details', 'Links']
+            navigation: true,
+            navigationPosition: 'right',
+            navigationTooltips: ['Home', 'About', 'Call for papers', 'Details', 'Links']
         });
     })
 </script>
